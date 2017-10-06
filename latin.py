@@ -49,5 +49,5 @@ for j in range(replications):
             mu[i*strata+row] = int_function(x,y)
     mu_fin[j] = (ubx-lbx)*(uby-lby)*np.sum(mu)/(strata*draws)
 
-print('Result                   :  ',np.mean(mu_fin))
-print('95 % confidence intervals: [',np.mean(mu_fin)-1.96*np.std(mu_fin),',',np.mean(mu_fin)+1.96*np.std(mu_fin),']')
+print('Result                  :  ',np.mean(mu_fin))
+print('95 % confidence interval: [',np.mean(mu_fin)-1.96*np.std(mu_fin),',',np.mean(mu_fin)+1.96*np.std(mu_fin),']')
