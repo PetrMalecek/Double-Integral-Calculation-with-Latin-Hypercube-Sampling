@@ -1,1 +1,1 @@
-# Double-Integral-Calculation-with-Latin-Hypercube-Sampling
+This code allows for calculation of any double integral using Latin Hypercube Sampling. The number of strata and random draws can be changed to achieve the desired accuracy: the 95% confidence interval is also calculated.
